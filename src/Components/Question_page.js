@@ -35,7 +35,7 @@ export default function Question_page(props) {
                 <button type="button" class="btn btn-sm btn-primary mx-2" style={{ "border-radius": "20px" }}>Like</button>
                 <button type="button" class="btn btn-sm btn-primary mx-2" style={{ "border-radius": "20px" }}>Dislike</button>
                 <Link to="/question/postComment"><button onClick="" type="button" class="btn btn-sm btn-primary mx-2" style={{ "border-radius": "20px" }}>Comment</button></Link>
-                <Link to="/question/viewComments"><button type="button" class="btn btn-sm btn-primary mx-2" style={{"float":"right"}}>View Comments</button></Link>
+                <Link to="/question/viewComments"><button type="button" class="btn btn-sm btn-primary mx-2 viewComments" >View Comments</button></Link>
             </div>
             {/*<Write_a_comment/>*/}
             <div>{props.postComment}</div>
@@ -50,7 +50,7 @@ export default function Question_page(props) {
                 <button type="button" class="btn btn-sm btn-primary mx-2" style={{ "border-radius": "20px" }}>Like</button>
                 <button type="button" class="btn btn-sm btn-primary mx-2" style={{ "border-radius": "20px" }}>Dislike</button>
                 <Link to="/question/postComment"><button type="button" class="btn btn-sm btn-primary mx-2" style={{ "border-radius": "20px" }}>Comment</button></Link>
-                <Link to="/question/viewComments"><button type="button" class="btn btn-sm btn-primary mx-2" style={{"float":"right"}}>View Comments</button></Link>
+                <Link to="/question/viewComments"><button type="button" class="btn btn-sm btn-primary mx-2 viewComments" >View Comments</button></Link>
 
             </div>
              {/* <Write_a_comment/> */}

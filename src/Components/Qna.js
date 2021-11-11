@@ -3,9 +3,12 @@ import { Link } from 'react-router-dom'
 
 export default function Qna() {
     return (
+        <>
         <div>
             <h3 className="my-3 mx-4">Q&A Section</h3>
-        <div style={{ /*"border": "3px solid black",*/ "marginLeft": "13rem", "marginRight": "13rem", "marginTop": "3rem", "marginBottom": "3rem" }} /*classNameName="mx-5 my-5"*/>
+        </div>
+
+
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingOne">
@@ -46,8 +49,7 @@ export default function Qna() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
+                </div>
+</>
     )
 }

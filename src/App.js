@@ -10,6 +10,7 @@ import Write_a_comment from './Components/Write_a_comment';
 import Opportunities from './Components/Opportunities';
 import Blogs from './Components/Blogs';
 import AboutUs from './Components/AboutUs';
+import Profile from './Components/Profile';
 //import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/giveanswer" element={ <GiveAnswer/>} />
           <Route exact path="/question/postComment" element={ <Question_page postComment={<Write_a_comment/>}/>} />
           <Route exact path="/question/viewComments" element={ <Question_page viewComments={<Comments_for_an_answer/>} />}/>
+          <Route exact path="/myprofile" element={<Profile/>}/>
         </Routes>
       </Router>
       {/* <Qna /> */}
