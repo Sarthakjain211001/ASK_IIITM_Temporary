@@ -24,15 +24,22 @@ export default function Navbar() {
         <li className="nav-item">
           <Link className="nav-link" to="about">About Us</Link>
         </li>
+        
+        </ul>
+      
+    </div>
+    <div class="d-flex flex-row-reverse bd-highlight" style={{"color" : "white"}}>
+        {/* <a classname="nav-link nav-item" aria-current="page" href="#">Home</a>
+        <a classname="nav-link nav-item" aria-current="page" href="#">Home</a> */}
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <Link className="nav-link" to="myprofile">My Profile</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="#">LogOut</Link>
         </li>
-        </ul>
-      
-    </div>
+      </ul>
+</div>
   </div>
 </nav>
 </div>
