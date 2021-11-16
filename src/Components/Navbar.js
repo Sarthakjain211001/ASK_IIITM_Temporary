@@ -24,15 +24,21 @@ export default function Navbar() {
         <li className="nav-item">
           <Link className="nav-link" to="about">About Us</Link>
         </li>
+        
+        </ul>
+
+    
+        <ul className="navbar-nav ml-auto">
         <li className="nav-item">
           <Link className="nav-link" to="myprofile">My Profile</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="#">LogOut</Link>
         </li>
-        </ul>
-      
-    </div>
+      </ul>  
+    
+    
+</div>
   </div>
 </nav>
 </div>

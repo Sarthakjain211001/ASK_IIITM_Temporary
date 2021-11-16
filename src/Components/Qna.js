@@ -5,7 +5,7 @@ export default function Qna() {
     return (
         <>
         <div>
-            <h3 className="my-3 mx-4">Q&A Section</h3>
+            <h3 className="mx-4" style={{"marginTop":"2rem", "marginBottom":"-1rem"}}>Q&A Section</h3>
         </div>
 
 
